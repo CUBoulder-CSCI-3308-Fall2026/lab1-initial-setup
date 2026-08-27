@@ -31,6 +31,14 @@ VALUES
   ('orange', 50, 0.2);
 
 Output:
+CREATE TABLE
+INSERT 0 5
+TEST YOUR TABLE
+
+Query:
+SELECT * FROM store;
+
+Output:
 id | product_name | qty | price
 ----+--------------+-----+-------
   1 | apple        |  10 |     1
@@ -39,10 +47,3 @@ id | product_name | qty | price
   4 | lemon        | 100 |   0.1
   5 | orange       |  50 |   0.2
 (5 rows)
-TEST YOUR TABLE
-
-Query:
-SELECT * FROM store;
-
-Output:
-[PUT THE OUTPUT YOU ACTUALLY GOT FROM POSTGRES HERE]
