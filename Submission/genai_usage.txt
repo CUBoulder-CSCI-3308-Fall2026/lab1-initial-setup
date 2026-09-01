@@ -23,7 +23,7 @@ using namespace std;
 
 int main() {
     int arr[] = {10, 5, 8, 10, 3, 8};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int n = sizeof(arr) / sizeof(arr[0]); // This gives the size by dividing how many bytes the array takes up by how many bytes one element of the array takes us, thus giving us the amount of elements in the array.
 
     int largest = arr[0];
     int secondLargest = arr[0];
